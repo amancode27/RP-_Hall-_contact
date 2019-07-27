@@ -1,6 +1,7 @@
+    
 /*
-	Masonry Template 
-	http://www.templatemo.com/preview/templatemo_434_masonry
+    Masonry Template 
+    http://www.templatemo.com/preview/templatemo_434_masonry
 */
 
 @font-face {
@@ -28,11 +29,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .blue {
-	color: #6BE;
+    color: #6BE;
 }
 
 .green {
-	color: #6E6;
+    color: #6E6;
 }
 
 main {
@@ -381,6 +382,7 @@ h5 {
     display: none
 }
 
+
 .dropdown-menu li a{
     color:white;
    
@@ -524,6 +526,27 @@ h5 {
     top:-30px;
    
 }
+.dropdown-menu li a{
+    color:white;
+   
+}
+.dropdown-menu{
+    z-index: 10;
+}
+.dropdown button div{
+      width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  
+}
+
+.social-icons{
+    display: none;
+}
+.layer{
+    display: none;
+}
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -567,6 +590,7 @@ h5 {
     background: transparent;
     border: 1px solid #fff;
     outline: 0;
+}
 }
 
 @media screen and (max-width: 768px) {
