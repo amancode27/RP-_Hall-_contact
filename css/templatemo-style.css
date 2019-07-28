@@ -1,4 +1,5 @@
     
+    
 /*
     Masonry Template 
     http://www.templatemo.com/preview/templatemo_434_masonry
@@ -274,8 +275,8 @@ h5 {
 }
 
 .social-icons a:hover {
-    background: lightblue;
-    color: #000;
+    color: lightblue;
+   
 }
 
 .site-brand{
@@ -348,7 +349,7 @@ h5 {
 }
 
 
-@media screen and (max-width: 970px ) and (min-width:768px) {
+@media only screen and (max-width: 970px ) and (min-width:768px) {
 .flo{
     transform: translate(0px,30px);
     font-size: 20px;
@@ -517,7 +518,7 @@ h5 {
     font-family: 'robotobold';
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .dropdown{
     display: block;
     float:right;
@@ -593,7 +594,7 @@ h5 {
 }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .subscribe-form #subscribe-email {
         margin-bottom: 20px;
     }
